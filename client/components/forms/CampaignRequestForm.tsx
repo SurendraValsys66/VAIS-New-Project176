@@ -613,9 +613,9 @@ function DeliverablesDialog({
         <Button
           type="button"
           disabled={!isFormValid}
-          className="text-xs bg-orange-500 text-white border-orange-500 hover:bg-orange-600 flex items-center gap-2 shadow-sm transition-all hover:scale-105 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
+          className="text-sm font-semibold bg-orange-500 text-white border-orange-500 hover:bg-orange-600 flex items-center gap-2 shadow-sm transition-all hover:scale-105 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed h-12 px-8"
         >
-          <Info className="w-4 h-4" />
+          <Info className="w-5 h-5" />
           Check Deliverables
         </Button>
       </SheetTrigger>
@@ -1459,7 +1459,7 @@ export default function CampaignRequestForm() {
                       {!campaignSubmitted ? (
                         <Button
                           type="submit"
-                          className="bg-orange-500 hover:bg-orange-600 text-white text-sm font-medium h-10"
+                          className="bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold h-12 px-8"
                           disabled={!isFormValid()}
                         >
                           Submit Campaign Request
